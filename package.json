@@ -8,9 +8,13 @@
   ],
   "license": "ISC",
   "author": "\"Ashish Kumar Pal",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.7.4"
   }
 }
