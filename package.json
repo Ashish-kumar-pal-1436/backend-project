@@ -16,5 +16,8 @@
   "dependencies": {
     "express": "^5.2.1",
     "mongoose": "^9.7.4"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.5"
   }
 }
