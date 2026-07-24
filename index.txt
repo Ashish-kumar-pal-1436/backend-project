@@ -1,0 +1,42 @@
+What is HTTP Header ? => 
+  1. metadata => key-value sent along with request and responce
+
+  => caching, authetication, manage state
+
+. Request Header --> from client
+. Responce Header --> from server
+. Representation Header --> encoding/compression
+. Payload Headers --> data
+
+HTTP METHODS => Basic set of operation that can be used to interact with server
+
+. GET => retrieve a resource
+. HEAD => No messaage body (responce headers only)
+. OPTIONS => what operations are availble
+. TRACE => loopback test (get some data)
+. DELETE => remove a resource
+. PUT => replace a resource
+. POST => interact with resource(mostly add)
+. PATCH => change part of a resource
+
+HTTP SATUS CODE 
+
+. 1xx => Information
+. 2xx => Success
+. 3xx => Redireaction
+. 4xx => Client error
+. 5XX => Server error 
+
+100 => Continue
+102 => Proccessing
+200 => ok
+201 => Created
+202 => Accessped
+307 => Temproray Redireact
+308 => permanent Redireact  
+400 => Bad request
+401 => Unauthorized
+402 => Payment required
+404 => Not Found
+500 => Internal server error
+504 => Gateway time out
